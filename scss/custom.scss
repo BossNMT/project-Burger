@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Bebas%20Neue&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Alfa%20Slab%20One&display=swap");
+body {
+    width: 1440px;
+    background-color: #ffffff;
+    overflow: auto;
+    // overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+@import "_header.scss";
+@import "_tryItTodayProduct.scss";
+@import "_productsBurger.scss";
+@import "_discover.scss";
+@import "_book.scss";
+@import "_footer.scss";
+
+

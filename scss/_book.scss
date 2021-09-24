@@ -1,0 +1,91 @@
+.book {
+    position: relative;
+    margin-top: 15px;
+
+    .img-burger {
+        position: absolute;
+        transform: translate(-20%, -17%);
+        top: 0;
+        left: 0;
+    }
+
+    .titel {
+        text-align: center;
+        padding-top: 44px;
+
+        p {
+            margin: 0 0 23px 0;
+            font-size: 29px;
+            letter-spacing: 2px;
+            line-height: 46px;
+            color: #3d2514;
+            font-weight: 700;
+            font-family: "Bebas Neue";
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 50px;
+            letter-spacing: 2px;
+            line-height: 46px;
+            color: #3d2514;
+            font-weight: 400;
+            font-family: "Alfa Slab One";
+        }
+    }
+
+    .img-drink {
+        position: absolute;
+        transform: translate(30%, 0%);
+    }
+
+    .book-table {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        margin: 88px 300px 0 300px;
+        flex-wrap: wrap;
+
+        input {
+            width: 350px;
+            height: 56px;
+            margin: 0 20px 20px 0;
+            border-radius: 5px;
+            background-color: rgba(235, 174, 76, 0);
+            border: 1px solid #bebebe;
+            padding-left: 20px;
+            font-size: 21px;
+            line-height: 46px;
+            color: #3d3d3d;
+            font-weight: 400;
+            font-family: "Bebas Neue";
+        }
+
+        button {
+            width: 379px;
+            height: 56px;
+            margin: 0 20px 20px 0;
+            border-radius: 5px;
+            border: none;
+            background-color: #bf2222;
+            font-size: 21px;
+            line-height: 46px;
+            color: #ffffff;
+            font-weight: 400;
+            font-family: "Alfa Slab One";
+            cursor: pointer;
+            transition: 0.3s ease;
+        }
+
+        button:hover {
+            opacity: 0.6;
+        }
+    }
+
+    .img-burger-2 {
+        position: absolute;
+        right: 0;
+        top: 0;
+        transform: translate(45%, 33%);
+    }
+}

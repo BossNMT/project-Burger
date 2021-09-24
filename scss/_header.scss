@@ -1,0 +1,148 @@
+.header {
+    padding: 57px;
+    background-color: #ffc045;
+    // height: 825px;
+
+    .logo-contact {
+        display: flex;
+        justify-content: space-between;
+
+        .logo {
+            width: 264px;
+            height: 60px;
+        }
+
+        .contact {
+            display: flex;
+            align-items: center;
+
+            .logo-vehicle {
+                padding-right: 12px;
+                width: 42px;
+                height: 33px;
+            }
+            .phone {
+                font-size: 17px;
+                line-height: 71px;
+                color: #3d2514;
+                font-weight: 700;
+                font-family: "Montserrat";
+                text-align: right;
+            }
+        }
+    }
+    .menu {
+        display: flex;
+        float: right;
+
+        .menu-items {
+            list-style: none;
+
+            a {
+                text-decoration: none;
+                margin-left: 60px;
+                font-size: 21px;
+                letter-spacing: 4px;
+                color: #3d2514;
+                font-weight: 700;
+                font-family: "Bebas Neue";
+                transition: 0.3s ease;
+            }
+
+            a:hover {
+                opacity: 0.5;
+            }
+        }
+    }
+
+    .header-content {
+        display: flex;
+        margin-top: 78px;
+
+        .info {
+            width: calc(38.5% - 57px);
+            p {
+                font-size: 24px;
+                line-height: 33px;
+                color: #3d2514;
+                font-weight: 400;
+                font-family: "Bebas Neue";
+                padding: 8px;
+                margin: 0;
+                border: 2px dashed #3d2514;
+                text-align: center;
+            }
+            h1 {
+                font-size: 114px;
+                line-height: 62px;
+                color: #3d2514;
+                font-weight: 400;
+                font-family: "Alfa Slab One";
+                filter: drop-shadow(3.936px 4.528px 0px #fee8bc);
+                margin: 35px 0 25px 0;
+            }
+            h3 {
+                font-size: 56px;
+                line-height: 62px;
+                color: #3d2514;
+                font-weight: 400;
+                font-family: "Alfa Slab One";
+                filter: drop-shadow(3.936px 4.528px 0px #fee8bc);
+                margin: 0;
+            }
+        }
+
+        .img {
+            width: calc(61.5% - 57px);
+            margin-left: 170px;
+            position: relative;
+
+            .sale {
+                width: 174px;
+                height: 174px;
+                border-radius: 87px;
+                background-color: #bf2222;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: absolute;
+                top: 65%;
+
+                .sale-netdut {
+                    width: 151px;
+                    height: 151px;
+                    border-radius: 75px;
+                    background-color: #bf2222;
+                    border: 2px dashed #ffffff;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+
+                    h2 {
+                        font-size: 70px;
+                        line-height: 38px;
+                        color: #ffffff;
+                        font-weight: 700;
+                        font-family: "Bebas Neue";
+                        text-align: center;
+                        margin: 0;
+
+                        span {
+                            font-size: 30px;
+                        }
+                    }
+
+                    .only {
+                        font-size: 30px;
+                        color: #ffffff;
+                        font-weight: 700;
+                        font-family: "Bebas Neue";
+                        text-align: center;
+                        margin-top: 7px;
+                    }
+                }
+            }
+        }
+    }
+}
