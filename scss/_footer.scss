@@ -1,0 +1,68 @@
+.footer {
+    background-image: url("/img/11.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 180px 57px 66px 57px;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+
+    .logo-text {
+        padding: 84px 43px;
+        width: 40%;
+
+        p {
+            font-size: 15px;
+            line-height: 25px;
+            color: #ffffff;
+            font-weight: 400;
+            font-family: "Montserrat";
+        }
+    }
+
+    .address-email {
+        padding: 150px 70px 0 0;
+
+        .address__email {
+            display: flex;
+            
+            p {
+                padding-left: 20px;
+                font-size: 21px;
+                line-height: 38px;
+                color: #ffffff;
+                font-weight: 500;
+                font-family: "Bebas Neue";
+                margin: 10px;
+            }
+        }
+    }
+
+    .companyname {
+        position: absolute;
+        left: 50px;
+        bottom: 0;
+        font-size: 17px;
+        color: #ffffff;
+        font-weight: 400;
+        font-family: "Bebas Neue";
+    }
+
+    .icon {
+        position: absolute;
+        display: flex;
+        right: 20px;
+        bottom: 20px;
+
+        a{ 
+            text-decoration: none;
+            margin-left: 16px;
+            transition: 0.3s ease;
+        }
+
+        a:hover {
+            opacity: 0.6;
+        }
+    }
+}

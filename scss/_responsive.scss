@@ -1,0 +1,534 @@
+
+// Small devices (landscape phones, 576px and up)
+@media only screen and (min-width: 575px) and (max-width: 768px) { 
+    
+    .header {
+        padding: 16px 16px 32px 16px;
+    }
+
+    .header .logo-contact .logo {
+        height: 44px;
+    }
+
+    .header .logo-contact .contact .logo-vehicle {
+        height: 24px;
+    }
+
+    .header .logo-contact .contact .phone {
+        font-size: 12px;
+    }
+
+    .header .menu .menu-items a {
+        margin-left: 37px;
+        font-size: 19px;
+    }
+
+    .header .header-content .info p {
+        width: 100%;
+        font-size: 13px;
+        padding: 2px;
+    }
+
+    .header .header-content .info h1 {
+        font-size: 44px;
+        margin: 4px 0 4px 0;
+    }
+
+    .header .header-content .info h3 {
+        font-size: 36px;
+        line-height: 36px;
+    }
+
+    .header .header-content .img img {
+        height: 133px;
+    }
+
+    .header .header-content .img .sale {
+        width: 65px;
+        height: 65px;
+    }
+
+    .header .header-content .img .sale .sale-netdut {
+        width: 50px;
+        height: 50px;
+    }
+
+    .header .header-content .img .sale .sale-netdut h2 {
+        font-size: 19px;
+        line-height: 8px;
+    }
+
+    .header .header-content .img .sale .sale-netdut h2 span {
+        font-size: 12px;
+    }
+
+    .header .header-content .img .sale .sale-netdut .only {
+        font-size: 12px;
+    }
+
+    //---------TRY IT TODAY------------//
+    .try-it-today-product {
+        margin: 78px 16px 0 16px;
+    }
+
+    .try-it-today-product .block-smail-2 {
+        margin-left: 8px;
+    }
+
+    .try-it-today-product .try-it-today {
+        font-size: 16px;
+    }
+
+    .try-it-today-product .try-it-today-info {
+        font-size: 32px;
+        line-height: 32px;
+    }
+
+    .always-tasty-burger .always-tasty-burger__block {
+        width: 200px;
+        height: 40px;
+    }
+
+    .always-tasty-burger .always-tasty-burger__block p {
+        font-size: 21px;
+    }
+
+    .always-tasty-burger .choose-enjoy h1 {
+        font-size: 44px;
+        line-height: 16px;
+    }
+
+    .always-tasty-burger .choose-enjoy p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .always-tasty-burger .products-burger .burger h3 {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .always-tasty-burger .products-burger .burger p {
+        margin: 0;
+        font-size: 10px;
+        line-height: 14px;
+    }
+
+    .always-tasty-burger .products-burger .burger a {
+        font-size: 8px;
+        line-height: 16px;
+        transform: translateX(24%);
+    }
+
+    //---------DISCOVER------------//
+    .discover {
+        margin: 64px 16px 65px 16px;
+    }
+
+    .discover .discover__text {
+        margin: 36px 2px 8px 4px;
+    }
+
+    .discover .discover__text p {
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    .discover .discover__text h2 {
+        font-size: 21px;
+        line-height: 21px;
+        margin: 0 0 21px 0;
+    }
+
+    .discover .discover__text .text {
+        font-size: 10px;
+        line-height: 16px;
+    }
+
+    .discover .discover__img {
+        margin: 4px;
+    }
+
+    //----------BOOK-------//
+    .img-burger {
+        img {
+            height: 225px;
+        }
+    }
+
+    .book .titel p {
+        margin: 0px 0 0px 0;
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    .book .titel h1 {
+        font-size: 29px;
+    }
+
+    .img-drink img {
+        height: 215px;
+        transform: translate(0%, 16%);
+    }
+
+    .img-burger-2 img {
+        height: 315px;
+        transform: translate(0%, 50%);
+    }
+
+    .book .book-table {
+        margin: 44px 150px 0 150px;
+    }
+
+    //-----------FOOTER--------//
+    .footer {
+        margin: 50px 16px 24px 16px;
+    }
+
+    .footer .logo-text {
+        padding: 40px 21px;
+    }
+
+    .logo-text img {
+        height: 40px;
+    }
+
+    .footer .logo-text p {
+        font-size: 8px;
+        line-height: 16px;
+    }
+
+    .footer .address-email {
+        padding: 64px 24px 0 0;
+    }
+
+    .address-email {
+        img {
+            width: 16px;
+        }
+    }
+
+    .footer .address-email .address__email p {
+        padding-left: 12px;
+        font-size: 10px;
+        margin: -4px;
+    }    
+
+    .footer .companyname {
+        font-size: 10px;
+    }
+
+    .footer .icon a {
+        margin-left: 12px;
+
+        img {
+           width: 20px;
+       }
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media only screen and (min-width: 768px) and (max-width: 992px) { 
+    //---------Header------------//
+    .header {
+        padding: 35px 36px 50px 35px;
+    }
+
+    .header .logo-contact .logo {
+        height: 48px;
+    }
+
+    .header .logo-contact .contact .logo-vehicle {
+        height: 27px;
+    }
+
+    .header .logo-contact .contact .phone {
+        font-size: 13px;
+    }
+
+    .header .menu {
+        margin: 0;
+    }
+
+    .header .menu .menu-items a {
+        margin-left: 30px;
+        font-size: 16px;
+    }
+
+    .header .header-content .info p {
+        width: 44%;
+        font-size: 9px;
+        padding: 2px;
+    }
+
+    .header .header-content .info h1 {
+        font-size: 71px;
+        margin: 12px 0 12px 0;
+    }
+
+    .header .header-content .info h3 {
+        font-size: 50px;
+    }
+
+    .header .header-content .img img {
+        height: 168px;
+    }
+
+    .header .header-content .img .sale {
+        width: 100px;
+        height: 100px;
+    }
+
+    .header .header-content .img .sale .sale-netdut {
+        width: 75px;
+        height: 76px;
+    }
+
+    .header .header-content .img .sale .sale-netdut h2 {
+        font-size: 34px;
+    }
+
+    .header .header-content .img .sale .sale-netdut h2 span {
+        font-size: 18px;
+    }
+
+    .header .header-content .img .sale .sale-netdut .only {
+        font-size: 18px;
+        margin-top: -10px;
+    }
+
+    //------TRY IT TODAY--------// (FIX SAU)
+    .try-it-today-product {
+        margin: 50px 35px 0 35px;
+    }
+
+    .try-it-today-product .block-smail-2 {
+        margin-left: 24px;
+    }
+
+    //----------ALWAYS TASTY BURGER-------//
+    .always-tasty-burger {
+        margin: 60px 30px;
+    }
+
+    .always-tasty-burger .choose-enjoy p {
+        margin: 21px 0 0 0;
+        font-size: 14px;
+    }
+
+    .always-tasty-burger .products-burger {
+        margin-top: 50px;
+    }
+
+    .always-tasty-burger .products-burger .burger h3 {
+        font-size: 28px;
+    }
+
+    .always-tasty-burger .products-burger .burger p {
+        font-size: 12px;
+    }
+
+    .always-tasty-burger .products-burger .burger a {
+        font-size: 12px;
+        transform: translateX(24%);
+        margin-top: 24px;
+    }
+
+    //----------DISCOVER-------// (fix img)
+    .discover {
+        margin: 100px 28px 65px 28px;
+    }
+
+    .discover .discover__text {
+        margin: 36px 0px 65px 4px;
+    }
+
+    .discover .discover__text p {
+        font-size: 21px;
+    }
+
+    .discover .discover__text h2 {
+        font-size: 36px;
+        line-height: 36px;
+        margin: 0px 0 16px 0;
+    }
+
+    .discover .discover__text .text {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .discover .discover__img {
+        margin: 12px;
+    }
+
+    //----------BOOK-------//
+    .img-burger {
+        img {
+            height: 250px;
+        }
+    }
+
+    .book .titel p {
+        margin: 0px 0 0px 0;
+        font-size: 24px;
+    }
+
+    .book .titel h1 {
+        font-size: 44px;
+    }
+
+    .img-drink img {
+        height: 300px;
+    }
+
+    .img-burger-2 img {
+        height: 450px;
+    }
+
+    .book .book-table {
+        margin: 44px 220px 0 220px;
+    }
+
+    //-----------FOOTER--------//
+    .footer {
+        margin: 50px 35px 66px 35px;
+    }
+
+    .footer .logo-text {
+        padding: 40px 40px;
+    }
+
+    .logo-text img {
+        height: 60px;
+    }
+
+    .footer .logo-text p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .footer .address-email {
+        padding: 90px 40px 0 0;
+    }
+
+    .address-email {
+        img {
+            width: 20px;
+        }
+    }
+
+    .footer .address-email .address__email p {
+        padding-left: 12px;
+        font-size: 14px;
+    }    
+
+    .footer .companyname {
+        font-size: 12px;
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+    //---------Header------------//
+    .header {
+        .menu {
+            .menu-items {
+                a {
+                    margin-left: 44px;
+                    font-size: 20px;
+                }
+            }
+        }
+
+        .header-content .info p {
+            font-size: 17px;
+            padding: 2px;
+        }
+
+        .header-content .info h1 {
+            font-size: 87px;
+        }
+
+        .header .header-content .info h3 {
+            font-size: 52px;
+        }
+
+        .header-content .img img {
+            height: 270px;
+        }
+
+        .header-content .img .sale {
+            width: 130px;
+            height: 130px;
+        }
+
+        .header-content .img .sale .sale-netdut {
+            width: 110px;
+            height: 110px;
+        }
+
+        .header-content .img .sale .sale-netdut h2 {
+            font-size: 44px
+        }
+
+        .header-content .img .sale .sale-netdut h2 span {
+            font-size: 28px;
+        }
+
+        .header-content .img .sale .sale-netdut .only {
+            font-size: 24px;
+        }
+    }
+
+    //------TRY IT TODAY--------// (FIX SAU)
+
+
+    //----------ALWAYS TASTY BURGER-------//
+    .always-tasty-burger .choose-enjoy p {
+        font-size: 16px;
+    }
+
+    .always-tasty-burger .products-burger .burger h3 {
+        font-size: 37px;
+    }
+
+    .always-tasty-burger .products-burger .burger p {
+        font-size: 16px;
+    }
+
+    .always-tasty-burger .products-burger .burger a {
+        font-size: 16px;
+    }
+
+    //----------DISCOVER-------// (fix img)
+    .discover .discover__text p {
+        font-size: 27px;
+    }
+
+    .discover .discover__text h2 {
+        font-size: 40px;
+        margin: 0 0 12px 0;
+    }
+
+    .discover .discover__text .text {
+        font-size: 12px;
+        line-height: 23px;
+    }
+
+    //----------FOOTER-------//
+    .footer .logo-text img {
+        height: 85px;
+    }
+
+    .footer .logo-text p {
+        font-size: 12px;
+    }
+
+    .footer .address-email .address__email p {
+        font-size: 18px;
+    }
+}
+
+
+
